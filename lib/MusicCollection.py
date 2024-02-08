@@ -12,4 +12,4 @@ music_collection = MusicCollection()
 music_collection.add_track("RadhiaSong")
 music_collection.add_track("MatiSong")
 
-# print(music_collection.get_tracklist)
+print(music_collection.get_tracklist)

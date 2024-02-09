@@ -1,4 +1,4 @@
-from lib.MusicCollection import MusicCollection
+from lib.MusicCollection import *
 import pytest
 
 def test_music_collection_instantiates_with_tracklist():
@@ -9,7 +9,6 @@ def test_music_collection_instantiates_with_tracklist():
 
     assert actual == expected
 
-
 def test_music_collection_add_track():
     music_collection = MusicCollection()
     music_collection.add_track("RadhiaSong")
@@ -18,9 +17,6 @@ def test_music_collection_add_track():
     expected = ["RadhiaSong"]
 
     assert actual == expected
-
-def add_track(self, track):
-    self.music.append(track)
 
 def test_music_collection_add_more_tracks():
     music_collection = MusicCollection()

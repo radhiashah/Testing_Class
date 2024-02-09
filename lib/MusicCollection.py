@@ -1,4 +1,5 @@
-class MusicCollection:
+class MusicCollection():
+    
     def __init__(self):
         self.music = []
 
@@ -7,9 +8,3 @@ class MusicCollection:
 
     def get_tracklist(self):
         return self.music
-
-music_collection = MusicCollection()
-music_collection.add_track("RadhiaSong")
-music_collection.add_track("MatiSong")
-
-print(music_collection.get_tracklist)
